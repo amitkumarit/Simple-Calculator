@@ -1,0 +1,27 @@
+body {      background-color: rgb(51, 52, 52);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+button{
+    color: white;
+    background-color: black;
+    width: 85px;
+    height: 85px;
+}
+
+input{
+    width: 72.5%;
+    height: 65px;
+    font-size: larger
+}
+
+.colorof {
+    background-color: rgb(105, 105, 105);
+}
+
+#cancel{
+    background-color: aqua;
+}
