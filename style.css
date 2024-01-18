@@ -1,4 +1,4 @@
-body {      background-color: rgb(51, 52, 52);
+body {      background-color: rgb(38, 96, 96);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -6,13 +6,19 @@ body {      background-color: rgb(51, 52, 52);
             margin: 0;
         }
 button{
+    border-radius: 25px;
     color: white;
     background-color: black;
     width: 85px;
     height: 85px;
 }
 
+#calculator{
+    background-color: bisque;
+    padding: 20px
+}
 input{
+    border-radius: 5px;
     width: 72.5%;
     height: 65px;
     font-size: larger
@@ -21,7 +27,11 @@ input{
 .colorof {
     background-color: rgb(105, 105, 105);
 }
-
+.colorofequal{
+    background-color: green;
+    border-radius: 15px;
+}
 #cancel{
-    background-color: aqua;
+    background-color: rgb(251, 81, 104);
+    border-radius: 50px;
 }

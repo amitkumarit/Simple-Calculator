@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="calculator">
@@ -25,32 +26,14 @@
         <button onclick="appendToDisplay('1')">1</button>
         <button onclick="appendToDisplay('2')">2</button>
         <button onclick="appendToDisplay('3')">3</button>
-        <button class="colorof" onclick="appendToDisplay('*')">/</button>
+        <button class="colorof" onclick="appendToDisplay('/')">/</button>
 
         <br>
         <button onclick="appendToDisplay('.')">.</button>
         <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="calculate()">=</button>
+        <button class="colorofequal" onclick="calculate()">=</button>
         <button class="colorof" onclick="appendToDisplay('*')">*</button>
         <br>
     </div>
-
-    <script>
-        function appendToDisplay(value) {
-            document.getElementById('display').value += value;
-        }
-
-        function calculate() {
-            try {
-                document.getElementById('display').value = eval(document.getElementById('display').value);
-            } catch (error) {
-                document.getElementById('display').value = 'Error';
-            }
-        }
-
-        function clearDisplay() {
-            document.getElementById('display').value = '';
-        }
-    </script>
 </body>
 </html>
