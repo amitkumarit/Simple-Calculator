@@ -1,14 +1,15 @@
-body {      background-color: rgb(38, 96, 96);
+body {      background-color: rgb(135, 136, 226);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
+
         }
 button{
     border-radius: 25px;
     color: white;
-    background-color: black;
+    background-color: rgb(52, 52, 52);
     width: 85px;
     height: 85px;
 }
@@ -25,6 +26,7 @@ input{
 }
 
 .colorof {
+    font-size: 15px;
     background-color: rgb(105, 105, 105);
 }
 .colorofequal{
